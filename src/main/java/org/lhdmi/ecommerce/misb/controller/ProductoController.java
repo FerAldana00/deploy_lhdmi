@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 //CRUD - CREATE - READ - UPDATE - DELETE
 	//HTTP - POST - GET - PUT - DELETE
 //@CrossOrigin(origins="*")
-@CrossOrigin(origins = "")
+@CrossOrigin(origins = "url de frontend")
 @RestController
 @RequestMapping(path="/api/galeria/") //http://localhost:8080/api/galeria/
 public class ProductoController {
