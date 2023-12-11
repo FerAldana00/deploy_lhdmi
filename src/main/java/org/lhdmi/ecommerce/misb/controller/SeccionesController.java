@@ -5,6 +5,7 @@ import java.util.List;
 import org.lhdmi.ecommerce.misb.model.Secciones;
 import org.lhdmi.ecommerce.misb.service.SeccionesService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,7 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 ///CRUD - Create Read Update Delete
 /// HTTP - POST  GET   PUT   DELETE
-	@RestController
+@CrossOrigin(origins = "https://luzbecerril.github.io/proyecto_galeria_lhdmi/")	
+@RestController
 	@RequestMapping(path="/api/secciones/") //http://localhost:8080/api/secciones/
 	public class SeccionesController {
 		private final SeccionesService seccionesService;

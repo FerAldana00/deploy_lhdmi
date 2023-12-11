@@ -13,9 +13,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 //CRUD - CREATE - READ - UPDATE - DELETE
 	//HTTP - POST - GET - PUT - DELETE
+@CrossOrigin(origins = "https://luzbecerril.github.io/proyecto_galeria_lhdmi/")
 @RestController
 @RequestMapping(path="/api/autoras/") //http://localhost:8080/api/autoras/
 public class AutorasController {
