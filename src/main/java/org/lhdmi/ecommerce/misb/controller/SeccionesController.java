@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 ///CRUD - Create Read Update Delete
 /// HTTP - POST  GET   PUT   DELETE
-@CrossOrigin(origins = "https://luzbecerril.github.io/proyecto_galeria_lhdmi/")	
+@CrossOrigin(origins = "https://luzbecerril.github.io/*")	
 @RestController
 	@RequestMapping(path="/api/secciones/") //http://localhost:8080/api/secciones/
 	public class SeccionesController {
