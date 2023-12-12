@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 //CRUD - CREATE - READ - UPDATE - DELETE
 	//HTTP - POST - GET - PUT - DELETE
-@CrossOrigin(origins = "https://luzbecerril.github.io/*")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(path="/api/autoras/") //http://localhost:8080/api/autoras/
 public class AutorasController {

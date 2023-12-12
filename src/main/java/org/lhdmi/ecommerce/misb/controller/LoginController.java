@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
-@CrossOrigin(origins = "https://luzbecerril.github.io/proyecto_galeria_lhdmi/login.html")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(path = "/api/login/")
 public class LoginController {
